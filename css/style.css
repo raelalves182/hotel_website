@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  max-width: 1200px;
+  padding: 20px;
+  gap: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  background: url( '../assets/images/Gojou.jpg' ) no-repeat center;
+  height: 600px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0;
+  color: #484848;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 32px;
+  border: none;
+  color: white;
+  background: #484848;
+  cursor: pointer;
+}
+
+.options {
+  border-radius: 32px;
+  background: #ffffff;
+  width: 100px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+}
