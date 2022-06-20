@@ -1,15 +1,8 @@
 import styled from "styled-components";
-
-export const Button = styled.button`
-  background: #484848;
-  border-radius: 32px;
-  padding: 16px 32px;
-  border: none;
-  cursor: pointer;
-  color: white;
-`;
+import Bg from '../../assets/images/Gojou.jpg';
 
 export const Header = styled.header`
-  display: flex;
-  align-items: center;
+  padding: 24px 0;
+  background: url(${Bg}) no-repeat center;
+  height: 600px;
 `;
