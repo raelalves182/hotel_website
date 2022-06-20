@@ -9,15 +9,15 @@ export default function index() {
     <Header>
       <div className='container'>
         <div className='row middle-xs between-xs'>
-          <div className='col-xs-4 col-md-3'>
+          <div className='col-xs-6 col-md-2'>
             <a href='./'><img src={Logo} alt="Logo"></img></a>
           </div>
 
-          <div className='col-xs-6'>
+          <div className='col-xs-6 col-sm-6'>
             <Nav />
           </div>
 
-          <div className='col-xs-3 end-xs'>
+          <div className='col-xs-3 col-md-4 col-sm-3'>
             <Options />
           </div>
         </div>
