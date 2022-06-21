@@ -10,7 +10,7 @@ export const Options = styled.div`
     align-items: center;
     border-radius: 32px;
     width: 100px;
-    background-color: black;
+    background-color: white;
     cursor: pointer;
     gap: 14px;
     justify-content: flex-end;
