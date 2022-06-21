@@ -36,11 +36,28 @@ export const SearchBar = styled.div`
     display: flex;
     padding: 0;
     list-style: none;
+    gap: 60px;
+  }
+
+  li + li {
+    border-left: 1px solid #DDDDDD;
   }
 
   a {
     text-decoration: none;
     color: #484848;
+    flex-direction: column;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 17px;
+
+    span {
+      color: #C2C6CC;
+      font-size: 14px !important;
+      font-weight: normal;
+      margin-top: 4px;
+    }
   }
 
   div {
@@ -50,6 +67,7 @@ export const SearchBar = styled.div`
     background: #484848;
     width: 54px;
     height: 54px;
+    margin-left: 30px;
     border-radius: 50%;
     cursor: pointer;
   }
