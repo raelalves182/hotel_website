@@ -20,6 +20,22 @@ export const SearchHeaders = styled.div`
   a {
     text-decoration: none;
     color: #484848;
+    position: relative;
+  }
+
+  a::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    display: block;
+    transition: 0.3s;
+    background: #484848;
+    margin-top: 4px;
+  }
+
+  a:hover:after {
+    width: 50%;
   }
 `;
 

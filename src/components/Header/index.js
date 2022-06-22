@@ -14,14 +14,18 @@ export default function index() {
             <a href='./'><img src={Logo} alt="Logo"></img></a>
           </div>
 
-          <div className='col-xs-6 col-sm-6'>
+          <div>
             <Nav />
           </div>
 
-          <div className='col-xs-3 col-md-4 col-sm-3'>
+          <div>
             <Options />
           </div>
+        </div>
+      </div>
 
+      <div className='container'>
+        <div className='row'>
           <div>
             <Search />
           </div>
