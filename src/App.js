@@ -1,5 +1,6 @@
 import Header from '../src/components/Header/index';
 import Footer from '../src/components/Footer/index';
+import Card from '../src/components/Card/index';
 import 'flexboxgrid';
 import '../src/styles/reset.css'
 
@@ -8,7 +9,12 @@ function App() {
     <div>
       <Header />
         <div className="container">
-          <main>Conteúdo</main>
+          <main>
+            <div>
+              <h1>Latest on the Property Listing</h1>
+              <Card />
+            </div>
+          </main>
         </div>
       <Footer />
     </div>
