@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Card = styled.div`
-  width: 280px;
-  height: 340px;
+  max-width: 280px;
+  width: 100%;
   background: #E0E2E6;
   border-radius: 8px;
 
