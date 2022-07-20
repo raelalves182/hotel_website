@@ -20,7 +20,7 @@ export const Card = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 147px;
+  gap: 147px !important;
   padding: 20px;
 
   div {
@@ -32,6 +32,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: end;
+    gap: 0;
   }
 `;
 
