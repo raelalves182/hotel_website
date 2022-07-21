@@ -16,6 +16,8 @@ export const Title = styled.h1`
   max-width: 340px;
   width: 100%;
 
+  max-width: ${props => `${props.maxWidth}px`};
+
   &:after {
     content: "";
     display: block;

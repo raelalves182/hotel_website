@@ -17,6 +17,11 @@ export const Card = styled.div`
   }
 `;
 
+export const CardTwo = styled(Card)`
+  max-width: 382px;
+  border-radius: 12px;
+`;
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;

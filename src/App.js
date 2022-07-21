@@ -1,6 +1,6 @@
 import Header from '../src/components/Header/index';
 import Footer from '../src/components/Footer/index';
-import Card from '../src/components/Card/index';
+import { CardOne, CardTwo } from '../src/components/Card';
 import 'flexboxgrid';
 import '../src/styles/reset.css'
 import { Box, Content, Title } from './styles/home';
@@ -16,7 +16,7 @@ function App() {
                 <Title>Latest on the Property Listing</Title>
                 <div>
                   {Array.from({ length: 4 })?.map((_, index) => (
-                    <Card key={index} />
+                    <CardOne key={index} />
                   ))}
                 </div>
               </section>
@@ -25,7 +25,7 @@ function App() {
                 <Title>Nearby Listed Properties</Title>
                 <div>
                   {Array.from({ length: 4 })?.map((_, index) => (
-                    <Card key={index} />
+                    <CardOne key={index} />
                   ))}
                 </div>
               </section>
@@ -34,7 +34,7 @@ function App() {
                 <Title>Top Rated Properties</Title>
                 <div>
                   {Array.from({ length: 4 })?.map((_, index) => (
-                    <Card key={index} />
+                    <CardOne key={index} />
                   ))}
                 </div>
               </section>
@@ -48,6 +48,15 @@ function App() {
                   </div>
                 </div>
               </Box>
+
+              <section>
+                <Title maxWidth={412}>Featured Properties on our Listing</Title>
+                <div>
+                  {Array.from({ length: 4 })?.map((_, index) => (
+                    <CardTwo key={index} />
+                  ))}
+                </div>
+              </section>
             </Content>
           </main>
         </div>
