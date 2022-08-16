@@ -21,24 +21,24 @@ const CardOne = () => {
   )
 }
 
-const CardTwo = () => {
-  return (
-    <>
-      <CardTwo>
-        <Content>
-          <div>
-            <img src={Heart} alt="heart up" ></img>
-          </div>
-          <div>
-            <span>$ 1000 - 5000 USD</span>
-          </div>
-        </Content>
-      </CardTwo>
-    </>
-  )
-}
+// const CardTwo = () => {
+//   return (
+//     <>
+//       <CardTwo>
+//         <Content>
+//           <div>
+//             <img src={Heart} alt="heart up" ></img>
+//           </div>
+//           <div>
+//             <span>$ 1000 - 5000 USD</span>
+//           </div>
+//         </Content>
+//       </CardTwo>
+//     </>
+//   )
+// }
 
 export {
   CardOne,
-  CardTwo
+// CardTwo
 };
